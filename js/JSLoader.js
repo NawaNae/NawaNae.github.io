@@ -13,7 +13,7 @@ function onloading()
   //  loadJS('js/PACE.min.js');
 
     loadJS('js/jquery-3.1.0.js');
-    loadJS('code-prettify-master/loader/run_prettify.js');
+   // loadJS('code-prettify-master/loader/run_prettify.js');
     loadJS('js/AJAX.js');
     loadJS('js/Define.js');
     loadJS('js/AeroGlassWindowByNawaNawa.js');

@@ -16,7 +16,7 @@ function getCookieAeroColor() {
 var r = 0, g = 0, b = 0, a = 0;
 function loading()
 {
-    if (location.href == "http://www.cc.ntut.edu.tw/~t105590029/") { location.href += "#main=pages/index.content"; }
+    if (location.href == "https://NawaNae.github.io") { location.href += "#main=pages/index.content"; }
     BackgroundRandom();
     var loadPage = document.createElement('div');
     loadPage.style.zIndex = 9999;
@@ -43,7 +43,7 @@ $(document).ready(function (e)
     $('body').css('background-image', 'url(' + BackGruondNow.URL + BackGruondNow.Name + '.' + BackGruondNow.Filetype + ')');
     var menu = createFullAeroWindowS('', '', 'Images/tanko.png', '000', 0, 0);
     menu.classList.add('menu');
-    POSTRequest('php/menu.php', '', function (txt) { menu.querySelector('.content').innerHTML = txt.response; })
+    //POSTRequest('php/menu.php', '', function (txt) { menu.querySelector('.content').innerHTML = txt.response; })
     menu.style.bottom = getStyle(document.querySelector('.workbar'),'height');
     menu.style.top = '';
     GetAncenstorAeroWindowCtrl(menu).min();
